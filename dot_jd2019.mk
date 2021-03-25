@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The PixelExperience Project
+# Copyright (C) 2019 The dotOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,21 +16,21 @@
 
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Pixel Experience targets
+# Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Inherit some common PPUI stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common dotOS stuff
+$(call inherit-product, vendor/dot/config/common.mk)
+
+# dotOS
+DOT_OFFICIAL := true
+WITH_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_jd2019
+PRODUCT_NAME := dot_jd2019
 PRODUCT_BRAND := Lenovo
 PRODUCT_DEVICE := jd2019
 PRODUCT_MANUFACTURER := Lenovo
 PRODUCT_MODEL := Lenovo Z5s
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
-
-# PPUI Stuff
-CUSTOM_BUILD_TYPE := OFFICIAL
-TARGET_FACE_UNLOCK_SUPPORTED := true
