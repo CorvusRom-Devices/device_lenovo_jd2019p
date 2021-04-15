@@ -25,6 +25,7 @@ $(call inherit-product, vendor/dot/config/common.mk)
 # dotOS
 DOT_OFFICIAL := true
 WITH_GAPPS := true
+TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := dot_jd2019
