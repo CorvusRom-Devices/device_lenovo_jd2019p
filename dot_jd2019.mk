@@ -23,9 +23,8 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, vendor/dot/config/common.mk)
 
 # dotOS
-DOT_OFFICIAL := true
-WITH_GAPPS := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := dot_jd2019
