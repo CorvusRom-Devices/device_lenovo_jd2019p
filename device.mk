@@ -100,10 +100,8 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.lenovo_jd2019
 
 # Livedisplay
-ifeq ($(findstring Plus, $(CUSTOM_VERSION)),)
 PRODUCT_PACKAGES += \
     lineage.livedisplay@2.0-service-sdm
-endif
 
 # Media
 PRODUCT_COPY_FILES += \
