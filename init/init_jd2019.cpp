@@ -34,15 +34,15 @@ void property_override(char const prop[], char const value[]) {
 }
 
 void vendor_load_properties() {
-    property_override("ro.build.description", "redfin-user 11 RQ2A.210505.003 7255357 release-keys");
-    property_override("ro.vendor.build.description", "redfin-user 11 RQ2A.210505.003 7255357 release-keys");
-    property_override("ro.system.build.description", "redfin-user 11 RQ2A.210505.003 7255357 release-keys");
-    property_override("ro.bootimage.build.description", "redfin-user 11 RQ2A.210505.003 7255357 release-keys");
-    property_override("ro.product.build.description", "redfin-user 11 RQ2A.210505.003 7255357 release-keys");
-    property_override("ro.build.fingerprint", "google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys");
-    property_override("ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys");
-    property_override("ro.bootimage.build.fingerprint", "google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys");
-    property_override("ro.system.build.fingerprint", "google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys");
-    property_override("ro.product.build.fingerprint", "google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys");
+    property_override("ro.build.description", "sunfish-user 11 RQ3A.210605.005 7349499 release-keys");
+    property_override("ro.vendor.build.description", "sunfish-user 11 RQ3A.210605.005 7349499 release-keys");
+    property_override("ro.system.build.description", "sunfish-user 11 RQ3A.210605.005 7349499 release-keys");
+    property_override("ro.bootimage.build.description", "sunfish-user 11 RQ3A.210605.005 7349499 release-keys");
+    property_override("ro.product.build.description", "sunfish-user 11 RQ3A.210605.005 7349499 release-keys");
+    property_override("ro.build.fingerprint", "google/sunfish/sunfish:11/RQ3A.210605.005/7349499:user/release-keys");
+    property_override("ro.vendor.build.fingerprint", "google/sunfish/sunfish:11/RQ3A.210605.005/7349499:user/release-keys");
+    property_override("ro.bootimage.build.fingerprint", "google/sunfish/sunfish:11/RQ3A.210605.005/7349499:user/release-keys");
+    property_override("ro.system.build.fingerprint", "google/sunfish/sunfish:11/RQ3A.210605.005/7349499:user/release-keys");
+    property_override("ro.product.build.fingerprint", "google/sunfish/sunfish:11/RQ3A.210605.005/7349499:user/release-keys");
     property_override("ro.oem_unlock_supported", "0");
 }
