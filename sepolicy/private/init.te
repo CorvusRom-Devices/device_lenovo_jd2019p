@@ -10,7 +10,7 @@ allow init vendor_overlay_file:dir mounton;
 
 allow init self:netlink_generic_socket read;
 
-allow init sysfs:file setattr;
+allow init sysfs:file rw_file_perms;
 allow init sysfs_tp:file setattr;
 
 allow init sysfs_devfreq:file { write };
