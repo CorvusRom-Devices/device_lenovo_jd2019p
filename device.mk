@@ -46,10 +46,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    GCamera
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/org.codeaurora.snapcam.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/org.codeaurora.snapcam.xml
+    CameraGo
 
 # Common init scripts
 PRODUCT_PACKAGES += \
