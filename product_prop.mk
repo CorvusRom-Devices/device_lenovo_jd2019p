@@ -9,10 +9,7 @@ endif
 
 # Blurs
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.surface_flinger.supports_background_blur=1 \
-    ro.sf.blurs_are_expensive=1 \
-    debug.sf.latch_unsignaled=1 \
-    debug.sf.disable_backpressure=1
+    ro.surface_flinger.supports_background_blur=0
 
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
