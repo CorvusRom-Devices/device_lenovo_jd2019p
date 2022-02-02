@@ -20,14 +20,15 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit some common dotOS stuff
-$(call inherit-product, vendor/dot/config/common.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
-# dotOS
-TARGET_INCLUDE_PIXEL_CHARGER := true
+# Arcana
+ARCANA_DEVICE := jd2019
+ARCANA_MAINTAINER := Husker
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := dot_jd2019
+PRODUCT_NAME := aosp_jd2019
 PRODUCT_BRAND := Lenovo
 PRODUCT_DEVICE := jd2019
 PRODUCT_MANUFACTURER := Lenovo

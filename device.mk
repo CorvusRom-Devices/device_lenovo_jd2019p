@@ -23,7 +23,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-dot
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-aosp
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay \
