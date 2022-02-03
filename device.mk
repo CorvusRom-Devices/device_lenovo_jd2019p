@@ -151,6 +151,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libnl \
     WifiOverlay
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
