@@ -25,6 +25,7 @@ $(call inherit-product, vendor/aosp/config/common.mk)
 # Arcana
 ARCANA_DEVICE := jd2019
 ARCANA_MAINTAINER := Husker
+ARCANA_OFFICIAL := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
