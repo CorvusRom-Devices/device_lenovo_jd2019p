@@ -19,20 +19,19 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Inherit some common dotOS stuff
-$(call inherit-product, vendor/aosp/config/common.mk)
+# Inherit some common CorvusOS stuff
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
-# Arcana
-ARCANA_DEVICE := jd2019p
-ARCANA_MAINTAINER := Husker
-ARCANA_OFFICIAL := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
+# Corvus
+CORVUS_MAINTAINER := victor10520
+RAVEN_LAIR := Official
+TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_jd2019p
-PRODUCT_BRAND := Lenovo
+PRODUCT_NAME := corvus_jd2019p
+PRODUCT_BRAND := lenovo
 PRODUCT_DEVICE := jd2019p
-PRODUCT_MANUFACTURER := Lenovo
-PRODUCT_MODEL := Z5s
+PRODUCT_MANUFACTURER := lenovo
+PRODUCT_MODEL := Lenovo Z5s
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
