@@ -9,14 +9,15 @@ endif
 
 # Blurs
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.surface_flinger.supports_background_blur=0
+   ro.sf.blurs_are_expensive=1 \
+   ro.surface_flinger.supports_background_blur=1
 
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
    persist.camera.HAL3.enabled=1 \
    sys.camera.packagename.zui=1 \
    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.camera \
-   vendor.camera.aux.packageblacklist=org.telegram.messenger,com.microsoft.teams,com.discord   
+   vendor.camera.aux.packageblacklist=org.telegram.messenger,com.microsoft.teams,com.discord
 
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -83,7 +84,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Gboard
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.ime.kb_pad_port_b=1
-	
+
 # Color control
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.has_wide_color_display=1 \
