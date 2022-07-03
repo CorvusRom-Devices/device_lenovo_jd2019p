@@ -34,15 +34,15 @@ void property_override(char const prop[], char const value[]) {
 }
 
 void vendor_load_properties() {
-    property_override("ro.build.description", "raven-user 12 SQ1D.220105.007 8030436 release-keys");
-    property_override("ro.vendor.build.description", "raven-user 12 SQ1D.220105.007 8030436 release-keys");
-    property_override("ro.system.build.description", "raven-user 12 SQ1D.220105.007 8030436 release-keys");
-    property_override("ro.bootimage.build.description", "raven-user 12 SQ1D.220105.007 8030436 release-keys");
-    property_override("ro.product.build.description", "raven-user 12 SQ1D.220105.007 8030436 release-keys");
-    property_override("ro.build.fingerprint", "google/raven/raven:12/SQ1D.220105.007/8030436:user/release-keys");
-    property_override("ro.vendor.build.fingerprint", "google/raven/raven:12/SQ1D.220105.007/8030436:user/release-keys");
-    property_override("ro.bootimage.build.fingerprint", "google/raven/raven:12/SQ1D.220105.007/8030436:user/release-keys");
-    property_override("ro.system.build.fingerprint", "google/raven/raven:12/SQ1D.220105.007/8030436:user/release-keys");
-    property_override("ro.product.build.fingerprint", "google/raven/raven:12/SQ1D.220105.007/8030436:user/release-keys");
+    property_override("ro.build.description", "raven-user 12 SQ3A.220605.009.B1 8650216 release-keys");
+    property_override("ro.vendor.build.description", "raven-user 12 SQ3A.220605.009.B1 8650216 release-keys");
+    property_override("ro.system.build.description", "raven-user 12 SQ3A.220605.009.B1 8650216 release-keys");
+    property_override("ro.bootimage.build.description", "raven-user 12 SQ3A.220605.009.B1 8650216 release-keys");
+    property_override("ro.product.build.description", "raven-user 12 SQ3A.220605.009.B1 8650216 release-keys");
+    property_override("ro.build.fingerprint", "google/raven/raven:12/SQ3A.220605.009.B1/8650216:user/release-keys");
+    property_override("ro.vendor.build.fingerprint", "google/raven/raven:12/SQ3A.220605.009.B1/8650216:user/release-keys");
+    property_override("ro.bootimage.build.fingerprint", "google/raven/raven:12/SQ3A.220605.009.B1/8650216:user/release-keys");
+    property_override("ro.system.build.fingerprint", "google/raven/raven:12/SQ3A.220605.009.B1/8650216:user/release-keys");
+    property_override("ro.product.build.fingerprint", "google/raven/raven:12/SQ3A.220605.009.B1/8650216:user/release-keys");
     property_override("ro.oem_unlock_supported", "0");
 }
