@@ -4,7 +4,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/lenovo/jd2019/jd2019-vendor.mk)
+$(call inherit-product-if-exists, vendor/lenovo/jd2019p/jd2019p-vendor.mk)
 
 # Bypass build time check on uses_libs until vendor fixes all their apps
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
@@ -93,7 +93,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.lenovo_jd2019
+    android.hardware.light@2.0-service.lenovo_jd2019p
 
 # Livedisplay
 PRODUCT_PACKAGES += \

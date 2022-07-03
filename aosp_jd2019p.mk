@@ -23,15 +23,15 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, vendor/aosp/config/common.mk)
 
 # Arcana
-ARCANA_DEVICE := jd2019
+ARCANA_DEVICE := jd2019p
 ARCANA_MAINTAINER := Husker
 ARCANA_OFFICIAL := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_jd2019
+PRODUCT_NAME := aosp_jd2019p
 PRODUCT_BRAND := Lenovo
-PRODUCT_DEVICE := jd2019
+PRODUCT_DEVICE := jd2019p
 PRODUCT_MANUFACTURER := Lenovo
 PRODUCT_MODEL := Z5s
 
